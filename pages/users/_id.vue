@@ -6,7 +6,11 @@
 
 <script>
 export default {
-  created() {}
+  validate(data) {
+    console.log(data);
+    return true;
+  },
+  layout: "Header"
 };
 </script>
 

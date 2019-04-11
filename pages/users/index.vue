@@ -17,7 +17,8 @@ export default {
     onclickGo() {
       this.$router.push(`users/${this.userId}`);
     }
-  }
+  },
+  layout: "Header"
 };
 </script>
 
