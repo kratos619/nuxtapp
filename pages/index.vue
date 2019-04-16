@@ -1,17 +1,17 @@
 <template>
   <section class="container">
+    <Header></Header>
     <nuxt-link to="users/1">Clsik me</nuxt-link>
   </section>
 </template>
 
 <script>
-import Logo from "~/components/Logo.vue";
+import Header from "~/components/Heade.vue";
 
 export default {
   components: {
-    Logo
-  },
-  layout: "Header"
+    Header
+  }
 };
 </script>
 
