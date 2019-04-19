@@ -31,6 +31,7 @@ export default {
   position: relative;
   padding: 30px;
   box-sizing: border-box;
+  background-image: url("~assets/image/300.jpg");
   background-position: center;
   background-size: cover;
 }
