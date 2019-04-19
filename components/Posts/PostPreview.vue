@@ -36,15 +36,6 @@ export default {
 </script>
 
 <style scoped>
-.intro {
-  height: 300px;
-  position: relative;
-  padding: 30px;
-  box-sizing: border-box;
-  background-position: center;
-  background-size: cover;
-}
-
 .intro h1 {
   position: absolute;
   top: 10%;
